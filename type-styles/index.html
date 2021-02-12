@@ -3,117 +3,133 @@
     <head>
         <title>Type Font</title>
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
         <style>
+            * {
+                font-family: 'Raleway', sans-serif;
+                color:rgb(160, 164, 180);
+            }
+            details {
+                font-size:24px;
+                margin-bottom:5%;
+            }
+            summary {
+                font-size:28px;
+            }
             h1 {
                 text-align: center;
-                font-family: 'Raleway', sans-serif;
+                font-size:32px;
             }
             h2 {
-                font-family: 'Raleway', sans-serif;
                 text-decoration:underline;
-                font-size: 24px;
+                font-weight:bolder;
+                font-size: 28px;
             }
             ol {
-                font-family: 'Raleway', sans-serif;
                 font-size: 18px;
+                margin-bottom:2%;
             }
             ul {
-                font-family: 'Raleway', sans-serif;
-                font-size: 18px;
+                font-size: 24px;
+                margin-bottom:2%;
             }
         </style>
+        
     </head>
-
+    <body style="background:rgb(43, 55, 95);"></body>
     <body>
         <h1>
             Font Family: Raleway
             <br> Size: 18px
         </h1>
-        <h2>
-            Font weight:
-        </h2>
-        <ol>
-            <li>font-weight: bolder</li>
-            <ul>
-                <li style="font-weight:bolder;">The quick brown fox jumped over the lazy dog</li>
-            </ul>
-            <li>font-weight: bold</li>
-            <ul>
-                <li style="font-weight:bold;">The quick brown fox jumped over the lazy dog</li>
-            </ul>
-            <li>font-weight: normal</li>
-            <ul>
-                <li>The quick brown fox jumped over the lazy dog</li>
-            </ul>
-        </ol>
-        <h2>
-            Font Style
-        </h2>
-        <ol>
-            <li>font-style: italic</li>
-            <ul>
-                <li style="font-style: italic;">The quick brown fox jumped over the lazy dog</li>
-            </ul>
-            <li>font-style: oblique</li>
-            <ul>
-                <li style="font-style: oblique;">The quick brown fox jumped over the lazy dog</li>
-            </ul>
-            <li>font-style: normal</li>
-            <ul>
-                <li style="font-style:normal;">The quick brown fox jumped over the lazy dog</li>
-            </ul>
-        </ol>
-        <h2>
-            Letter Spacing
-        </h2>
-        <ol>
-            <li>letter-spacing: 0.5 em</li>
-            <ul>
-                <li style="letter-spacing:0.5em;">The quick brown fox jumped over the lazy dog</li>
-            </ul>
-            <li>letter-spacing: 0.75 em</li>
-            <ul>
-                <li style="letter-spacing:0.75em;">The quick brown fox jumped over the lazy dog</li>
-            </ul>
-            <li>letter-spacing: normal</li>
-            <ul>
-                <li style="letter-spacing:normal;">The quick brown fox jumped over the lazy dog</li>
-            </ul>
-        </ol>
-        <h2>
-            Text Transform
-        </h2>
-        <ol>
-            <li>text-transform: capitalize</li>
-            <ul>
-                <li style="text-transform:capitalize;">The quick brown fox jumped over the lazy dog</li>
-            </ul>
-            <li>text-transform: uppercase</li>
-            <ul>
-                <li style="text-transform:uppercase;">The quick brown fox jumped over the lazy dog</li>
-            </ul>
-            <li>text-transform: normal</li>
-            <ul>
-                <li style="text-transform:normal">The quick brown fox jumped over the lazy dog</li>
-            </ul>
-        </ol>
-        <h2>
-            Text Decoration
-        </h2>
-        <ol>
-            <li>text-decoration:underline</li>
-            <ul>
-                <li style="text-decoration:underline">The quick brown fox jumped over the lazy dog</li>
-            </ul>
-            <li>text-decoration:crimson;text-decoration:line-through</li>
-            <ul>
-                <li style="text-decoration:crimson;text-decoration:line-through;">The quick brown fox jumped over the lazy dog</li>
-            </ul>
-            <li>text-decoration:none</li>
-            <ul>
-                <li style="text-decoration:none">The quick brown fox jumped over the lazy dog</li>
-            </ul>
-        </ol>
+        <details>
+            <summary>Font Weight</summary>
+            <ol>
+                <li>font-weight: lighter</li>
+                <ul>
+                    <li style="font-weight:lighter;">The quick brown fox jumped over the lazy dog</li>
+                </ul>
+                <li>font-weight:normal</li>
+                <ul>
+                    <li style="font-weight:normal;">The quick brown fox jumped over the lazy dog</li>
+                </ul>
+                <li>font-weight: bolder</li>
+                <ul>
+                    <li style="font-weight:bolder">The quick brown fox jumped over the lazy dog</li>
+                </ul>
+            </ol>
+        </details>
+    </body>
+    <body>
+        <details>
+            <summary>Font Style</summary>
+            <ol>
+                <li>font-style: italic</li>
+                <ul>
+                    <li style="font-style: italic;">The quick brown fox jumped over the lazy dog</li>
+                </ul>
+                <li>font-style: normal</li>
+                <ul>
+                    <li style="font-style:normal;">The quick brown fox jumped over the lazy dog</li>
+                </ul>
+            </ol>
+        </details>
+    </body>
+    <body>
+        <details>
+            <summary>Letter Spacing</summary>
+            <ol>
+                <li>letter-spacing: 0.5 em</li>
+                <ul>
+                    <li style="letter-spacing:0.5em;">The quick brown fox jumped over the lazy dog</li>
+                </ul>
+                <li>letter-spacing: 0.75 em</li>
+                <ul>
+                    <li style="letter-spacing:0.75em;">The quick brown fox jumped over the lazy dog</li>
+                </ul>
+                <li>letter-spacing: normal</li>
+                <ul>
+                    <li style="letter-spacing:normal;">The quick brown fox jumped over the lazy dog</li>
+                </ul>
+            </ol>
+        </details>
+    </body>
+    <body>
+        <details>
+            <summary>Text Transform</summary>
+            <ol>
+                <li>text-transform: capitalize</li>
+                <ul>
+                    <li style="text-transform:capitalize;">The quick brown fox jumped over the lazy dog</li>
+                </ul>
+                <li>text-transform: uppercase</li>
+                <ul>
+                    <li style="text-transform:uppercase;">The quick brown fox jumped over the lazy dog</li>
+                </ul>
+                <li>text-transform: normal</li>
+                <ul>
+                    <li style="text-transform:normal">The quick brown fox jumped over the lazy dog</li>
+                </ul>
+            </ol>
+        </details>
+    </body>
+    <body>
+        <details>
+            <summary>Text Decoration</summary>
+            <ol>
+                <li>text-decoration:underline</li>
+                <ul>
+                    <li style="text-decoration:underline">The quick brown fox jumped over the lazy dog</li>
+                </ul>
+                <li>text-decoration:line-through</li>
+                <ul>
+                    <li style="text-decoration:line-through;">The quick brown fox jumped over the lazy dog</li>
+                </ul>
+                <li>text-decoration:none</li>
+                <ul>
+                    <li style="text-decoration:none">The quick brown fox jumped over the lazy dog</li>
+                </ul>
+            </ol>
+        </details>
     </body>
 </html>
